@@ -15,17 +15,13 @@ num2 = float(input("Type a Second Number: "))
 def main():
     #Computations
     if solution == Addition:
-        print("Addition of", num1, "and", num2, "is")
-        print(num1 + num2)
+        print("Addition of", num1, "and", num2, "is ", num1 + num2)
     elif solution == Subtraction:
-        print("Subtraction of", num1, "and", num2, "is")
-        print(num1 - num2)
+        print("Subtraction of", num1, "and", num2, "is ", num1 - num2)
     elif solution == Multiplication:
-        print("Multiplication of", num1, "and", num2, "is")
-        print(num1 * num2)
+        print("Multiplication of", num1, "and", num2, "is ", num1 * num2)
     elif solution == Divition:
-        print("Divition of", num1, "and", num2, "is")
-        print(num1 / num2)
+        print("Divition of", num1, "and", num2, "is ", num1 / num2)
     #Error
     elif [solution != Addition, solution != Subtraction, solution != Multiplication, solution != Divition] or [num1 and num2 != float() or int()]:
         print("Math Error")
