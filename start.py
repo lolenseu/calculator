@@ -4,15 +4,15 @@ Subtraction = "sub"
 Multiplication = "mul"
 Divition = "div"
 
-#Info
-print("Type (add) if you use Addition, Type (sub) if you use Subtraction, Type (mul) if you use Multiplication and Type (div) if you use Divition")
-
-#Fuctions
-solution = str(input("Solution here: "))
-num1 = float(input("Type a Number: "))
-num2 = float(input("Type a Second Number: "))
-
 def main():
+    #Info
+    print("Type (add) if you use Addition, Type (sub) if you use Subtraction, Type (mul) if you use Multiplication and Type (div) if you use Divition")
+
+    #Fuctions
+    solution = str(input("Solution here: "))
+    num1 = float(input("Type a Number: "))
+    num2 = float(input("Type a Second Number: "))
+
     #Computations
     if solution == Addition:
         print("Addition of", num1, "and", num2, "is ", num1 + num2)
