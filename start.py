@@ -12,7 +12,7 @@ def main():
     print("Example: Number (add/sub/mul/div/sqr) Second Number")
     
     #Fuctions
-    solution = str(input("Solution here: "))
+    solution = str(input("Solution here: ")).lower()
     num1 = float(input("Type a Number: "))
     num2 = float(input("Type a Second Number: "))
 
